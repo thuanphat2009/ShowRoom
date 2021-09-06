@@ -1,0 +1,49 @@
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    
+}
+body{
+    margin: 0;
+}
+.content{
+    display: flex;
+}
+.content-left{
+    width: 268px;
+    padding: 8px 16px;
+    background-color: #f44336;
+    height: 1000px;
+}
+.content-left-name{
+    font-size: 2.4rem;
+    color: #ffffff;
+    padding: 86px 16px 64px 16px;
+    margin-bottom: 0;
+}
+
+.content-left-list{
+    list-style: none;
+    padding-left: 0;
+}
+.content-left-link:hover{
+    background-color: #ffffff;
+    color: #000 ;
+    text-transform: uppercase;
+}
+.content-left-link{
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    font-weight: 600;
+    line-height: 2.7rem;
+
+}
