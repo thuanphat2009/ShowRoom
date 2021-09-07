@@ -110,11 +110,53 @@ body{
 .content-right-services{
     margin-top: 75px;
 }
-.content-right-services-main{
+.content-right-services-main,.content-right-designers-main{
     margin-left: 16px;
+    
+}
+.content-right-text,.content-right-description{
+    margin: 16px 0;
     font-size: 1.6rem;
     line-height: 2.9rem;
 }
-.content-right-services-text{
+.content-right-designers{
+    margin-top: 75px;
+}
+.content-right-designers-introduce{
+    margin-left: 16px;
+}
+.content-right-designers-introduce-heading{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.content-right-designers-introduce-list{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.content-right-designers-introduce-item{
+    width: 358px;
+    background-color: #f1f1f1;
+}
+.content-right-designers-introduce-avatar{
+    width: 100%;
+}
+.content-right-designers-introduce-more{
+    padding: 0 16px;
+}
+.content-right-designers-introduce-name{
+    font-size: 2.4rem;
+    font-weight: 400;
     margin: 16px 0;
+}
+.content-right-designers-introduce-job{
+    font-size: 1.6rem;
+    opacity: 0.6;
+    font-weight: 400;
+    margin: 32px 0 16px 0;
+}
+.content-right-designers-introduce-description{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
 }
