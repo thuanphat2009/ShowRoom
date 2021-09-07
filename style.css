@@ -11,15 +11,19 @@ html{
 }
 body{
     margin: 0;
+   
 }
 .content{
     display: flex;
+    
 }
 .content-left{
-    width: 370px;
+    width: 300px;
     padding: 8px 16px;
     background-color: #f44336;
-    height: 1000px;
+    position: fixed;
+    bottom: 0;
+    top: 0;
 }
 .content-left-name{
     font-size: 2.4rem;
@@ -48,9 +52,13 @@ body{
 
 }
 .content-right{
-    padding: 0 40px;
+    
     background-color: #ffffff;
     width: 100%;
+    margin-left: 300px;
+}
+.content-right-main{
+    padding: 0 40px;
 }
 .content-right-heading{
     padding: 0 16px;
@@ -221,4 +229,49 @@ body{
 .content-right-packages-btn:hover{
     background-color: #000;
     color: #ffffff;
+}
+.content-right-contact{
+    margin-top: 85px;
+}
+.content-right-contact-main{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+.content-right-contact-main label{
+    padding-bottom: 5px;
+    display: block;
+}
+.content-right-contact-input{
+   padding: 8px;
+   border: 1px solid #ccc;
+   width: 100%;
+   border-radius: 2px;
+   line-height: 2.4rem;
+}
+.content-right-contact-box{
+    margin: 12px 0;
+}
+.btn-submit{
+    line-height: 2.4rem;
+    padding: 12px 24px;
+    background-color: #f44336;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.btn-submit:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.footer{
+    margin-top: 85px;
+    height: 88px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
 }
