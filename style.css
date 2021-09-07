@@ -108,7 +108,7 @@ body{
     padding-left: 8px;
 }
 .content-right-services{
-    margin-top: 75px;
+    margin-top: 85px;
 }
 .content-right-services-main,.content-right-designers-main{
     margin-left: 16px;
@@ -119,8 +119,8 @@ body{
     font-size: 1.6rem;
     line-height: 2.9rem;
 }
-.content-right-designers{
-    margin-top: 75px;
+.content-right-designers,.content-right-packages{
+    margin-top: 85px;
 }
 .content-right-designers-introduce{
     margin-left: 16px;
@@ -159,4 +159,66 @@ body{
 .content-right-designers-introduce-description{
     font-size: 1.6rem;
     line-height: 2.5rem;
+}
+.content-right-packages-list{
+    list-style: none;
+    padding-left: 0;
+}
+.content-right-packages-main{
+    display: flex;
+    margin-left: 16px;
+}
+.content-right-packages-basic,.content-right-packages-pro{
+    width: 545px;
+    text-align: center;
+    
+}
+.content-right-packages-basic{
+    padding-right:8px;
+}
+.content-right-packages-pro{
+    padding-left: 8px;
+}
+.content-right-packages-item:first-child{
+    padding: 32px 16px;
+    font-size: 2.4rem;
+    background-color: #616161;
+    color: #ffffff;
+    line-height: 3.6rem;
+}
+.content-right-packages-item.active{
+    background-color: #f44336;
+}
+.content-right-packages-item{
+    font-size: 1.6rem;
+    padding: 16px;
+    line-height: 2.4rem;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+.content-right-packages-item span{
+    display: block;
+    font-size: 1.6rem;
+    opacity: 0.6;
+    margin-top: 15px;
+}
+.content-right-packages-item.price{
+    font-size: 3rem;
+    padding: 30px 0;
+}
+.content-right-packages-btn{
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.content-right-packages-btn.active{
+    background-color: #f44336;
+    color: #ffffff;
+}
+.content-right-packages-btn:hover{
+    background-color: #000;
+    color: #ffffff;
 }
