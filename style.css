@@ -4,7 +4,7 @@
 html{
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Poppins", sans-serif;
     box-sizing: border-box;
     background-color: #f1f1f1;
     
@@ -46,4 +46,43 @@ body{
     font-weight: 600;
     line-height: 2.7rem;
 
+}
+.content-right{
+    padding: 0 40px;
+    background-color: #ffffff;
+    width: 100%;
+}
+.content-right-heading{
+    padding: 0 16px;
+    margin-top: 80px;
+    font-size: 6.4rem;
+    line-height: 10rem;
+    margin-bottom: 0;
+}
+.content-right-title{
+    padding: 0 16px;
+}
+.content-right-name{
+    font-size: 4.8rem;
+    color: #f44336;
+    margin: 20px 0;
+    line-height: 6rem;
+    font-family: 'Poppins', sans-serif;
+}
+.content-right-line{
+    width: 50px;
+    background-color: #f44336;
+    height: 10px;
+    border-radius: 4px;
+}
+.content-right-list{
+    padding-left: 0;
+}
+.content-right-example{
+    margin-top: 40px;
+    display: flex;
+}
+.content-right-img{
+    width: 545px;
+    height: 303px;
 }
