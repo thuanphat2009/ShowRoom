@@ -16,7 +16,7 @@ body{
     display: flex;
 }
 .content-left{
-    width: 268px;
+    width: 370px;
     padding: 8px 16px;
     background-color: #f44336;
     height: 1000px;
@@ -77,12 +77,44 @@ body{
 }
 .content-right-list{
     padding-left: 0;
+    list-style: none;
 }
 .content-right-example{
     margin-top: 40px;
     display: flex;
+    margin-left: 16px;
 }
-.content-right-img{
+.content-right-item{
     width: 545px;
     height: 303px;
+    padding-bottom: 16px;
+}
+.content-right-item:first-child{
+    height: 450px;
+}
+.content-right-img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.content-right-img:hover{
+    opacity: 1; 
+    cursor: pointer;
+}
+.content-right-list:first-child{
+    padding-right: 8px;
+}
+.content-right-list:last-child{
+    padding-left: 8px;
+}
+.content-right-services{
+    margin-top: 75px;
+}
+.content-right-services-main{
+    margin-left: 16px;
+    font-size: 1.6rem;
+    line-height: 2.9rem;
+}
+.content-right-services-text{
+    margin: 16px 0;
 }
