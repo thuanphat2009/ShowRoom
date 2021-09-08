@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css">
     <title>Show Room</title>
 </head>
 
 <body>
     <div class="content">
-        <div class="content-left">
+        <div class="content-left hide-on-mobile-tablet">
             <div class="content-left-container">
                 <h3 class="content-left-name">
                     TTP Brand
@@ -24,27 +25,27 @@
                         </a>
                     </li>
                     <li class="content-left-item">
-                        <a href="" class="content-left-link">
+                        <a href="#showcase" class="content-left-link">
                             Showcase
                         </a>
                     </li>
                     <li class="content-left-item">
-                        <a href="" class="content-left-link">
+                        <a href="#services" class="content-left-link">
                             Services
                         </a>
                     </li>
                     <li class="content-left-item">
-                        <a href="" class="content-left-link">
+                        <a href="#designers" class="content-left-link">
                             Designers
                         </a>
                     </li>
                     <li class="content-left-item">
-                        <a href="" class="content-left-link">
+                        <a href="#packages" class="content-left-link">
                             Packages
                         </a>
                     </li>
                     <li class="content-left-item">
-                        <a href="" class="content-left-link">
+                        <a href="#contact" class="content-left-link">
                             Contact
                         </a>
                     </li>
@@ -52,9 +53,17 @@
             </div>
 
         </div>
+        <div class="menu-mini">
+            <div class="menu-minibox">
+                <i class="menu-minibox-icon fas fa-bars"></i>
+                <p class="menu-minibox-text">
+                    TTP Brand
+                </p>
+            </div>
+        </div>
         <div class="content-right">
             <div class="content-right-main">
-                <div class="content-right-showcase">
+                <div class="content-right-showcase" id="showcase">
                     <h1 class="content-right-heading">
                         Interior Design
                     </h1>
@@ -95,7 +104,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="content-right-services">
+                <div class="content-right-services" id="services">
                     <div class="content-right-title">
                         <h1 class="content-right-name">
                             Services.
@@ -121,7 +130,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="content-right-designers">
+                <div class="content-right-designers" id="designers">
                     <div class="content-right-title">
                         <h1 class="content-right-name">
                             Designers.
@@ -202,7 +211,7 @@
     
     
                 </div>
-                <div class="content-right-packages">
+                <div class="content-right-packages" id="packages">
                     <div class="content-right-title">
                         <h1 class="content-right-name">
                             Packages.
@@ -283,7 +292,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-right-contact">
+                <div class="content-right-contact" id="contact">
                     <div class="content-right-title">
                         <h1 class="content-right-name">
                             Contact.
@@ -324,7 +333,48 @@
         </div>
         
     </div>
+    <div class="overlay">
+        <div class="sub-menu">
+            <div class="content-left-container">
+                <h3 class="content-left-name">
+                    TTP Brand
+                </h3>
+                <ul class="content-left-list">
+                    <li class="content-left-item">
+                        <a href="" class="content-left-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="content-left-item">
+                        <a href="#showcase" class="content-left-link">
+                            Showcase
+                        </a>
+                    </li>
+                    <li class="content-left-item">
+                        <a href="#services" class="content-left-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="content-left-item">
+                        <a href="#designers" class="content-left-link">
+                            Designers
+                        </a>
+                    </li>
+                    <li class="content-left-item">
+                        <a href="#packages" class="content-left-link">
+                            Packages
+                        </a>
+                    </li>
+                    <li class="content-left-item">
+                        <a href="#contact" class="content-left-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
+    <script src="./js.js"></script>
 </body>
 
 </html>
