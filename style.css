@@ -7,7 +7,7 @@ html{
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
     background-color: #f1f1f1;
-    
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -274,4 +274,38 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 1.6rem;
+}
+.menu-mini{
+    display: none;
+    background-color: #f44336;
+    height: 60px;
+    position: relative;
+}
+.menu-minibox{
+    display: flex;
+    align-items: center;
+    font-size: 2.4rem;
+    color: #ffffff;
+    margin-left: 16px;
+}
+.menu-minibox-icon{
+    padding: 16px;
+}
+.overlay{
+    position: fixed;
+    display: none;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.overlay.active{
+    display: block;
+}
+.sub-menu{
+    position: absolute;
+    height: 100%;
+    background-color: #f44336;
+    width: 250px;
 }
