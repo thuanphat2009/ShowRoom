@@ -18,8 +18,34 @@
     .content-right-heading{
         margin: 0;
     }
-   
-
+    .content-right-main{
+        padding: 0 16px;
+    }
+    .content-right-heading,.content-right-title{
+        padding: 0;
+    }
+    .content-right-example{
+        margin-left: 0;
+    }
+    .content-right-item{
+        width: unset;
+    }
+    .content-right-item:first-child{
+        height: auto;
+    }
+    .content-right-services-main, .content-right-designers-main{
+        margin-left: 0;
+    }
+    .content-right-designers-introduce{
+        margin-left: 0;
+    }
+    .content-right-designers-introduce-item{
+        width: 235px;
+    }
+    .content-right-packages-main,.content-right-contact-main{
+        margin-left: 0;
+    }
+}
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
     .hide-on-tablet {
